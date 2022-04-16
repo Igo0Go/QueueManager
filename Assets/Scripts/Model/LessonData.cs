@@ -10,6 +10,9 @@ public class LessonData
     public int minutes = 30;
     public WeekType weekOfLesson;
     public GroupData group;
+    public string lessonPlace;
+    [TextArea]
+    public string lessonTip;
 }
 
 
